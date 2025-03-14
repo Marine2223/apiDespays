@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bouton{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    gap: 15px;
+}
+.bouton .inpu{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.boutonhover{
+    border-radius: 20px;
+}
+.tirets{
+    width: 20vw;
+}
+button{
+    width: 9vw;
+    padding: 3px; 
+}
+.inp{
+    display: flex;
+    gap: 5px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 30px;
+}
